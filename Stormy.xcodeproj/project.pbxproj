@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77AB46BA1B123B47009DD44E /* Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AB46B91B123B46009DD44E /* Current.swift */; };
 		77CDC8721B11442E001FDD94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CDC8711B11442E001FDD94 /* AppDelegate.swift */; };
 		77CDC8741B11442E001FDD94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CDC8731B11442E001FDD94 /* ViewController.swift */; };
 		77CDC8771B11442E001FDD94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CDC8751B11442E001FDD94 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		77AB46B91B123B46009DD44E /* Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current.swift; sourceTree = "<group>"; };
 		77CDC86C1B11442E001FDD94 /* Stormy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stormy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CDC8701B11442E001FDD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77CDC8711B11442E001FDD94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				77CDC8711B11442E001FDD94 /* AppDelegate.swift */,
 				77CDC8731B11442E001FDD94 /* ViewController.swift */,
+				77AB46B91B123B46009DD44E /* Current.swift */,
 				77CDC8751B11442E001FDD94 /* Main.storyboard */,
 				77CDC8781B11442E001FDD94 /* Images.xcassets */,
 				77CDC87A1B11442E001FDD94 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AB46BA1B123B47009DD44E /* Current.swift in Sources */,
 				77CDC8741B11442E001FDD94 /* ViewController.swift in Sources */,
 				77CDC8721B11442E001FDD94 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				77CDC88D1B11442E001FDD94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77CDC88E1B11442E001FDD94 /* Build configuration list for PBXNativeTarget "StormyTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				77CDC8901B11442E001FDD94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
