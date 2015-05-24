@@ -59,8 +59,15 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudy-night" translatesAutoresizingMaskIntoConstraints="NO" id="cAK-RQ-1FU">
+                                <rect key="frame" x="38" y="92" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Cm6-ZW-nbm"/>
+                                    <constraint firstAttribute="width" constant="60" id="toG-3j-Mxt"/>
+                                </constraints>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ottawa, ON" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q1l-6Y-pTl">
-                                <rect key="frame" x="104" y="94" width="113" height="26"/>
+                                <rect key="frame" x="104" y="109" width="113" height="26"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -70,17 +77,19 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="95X-eX-VUn" secondAttribute="trailing" constant="36" id="030-4X-TOf"/>
                             <constraint firstItem="pg3-wK-zZ5" firstAttribute="top" secondItem="OI8-qT-7UV" secondAttribute="bottom" constant="-17" id="0Q9-XW-QRL"/>
+                            <constraint firstItem="cAK-RQ-1FU" firstAttribute="top" secondItem="7Qv-Ch-RzZ" secondAttribute="bottom" constant="72" id="1e4-J9-eOd"/>
                             <constraint firstItem="95X-eX-VUn" firstAttribute="top" secondItem="dRY-5w-Tmd" secondAttribute="bottom" constant="10" id="2hb-nV-7q0"/>
                             <constraint firstAttribute="centerX" secondItem="pg3-wK-zZ5" secondAttribute="centerX" constant="-0.5" id="4o1-bu-S18"/>
                             <constraint firstItem="vrh-Yh-1Ii" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="47" id="76P-ZR-Fmp"/>
                             <constraint firstItem="FE8-9d-zBf" firstAttribute="top" secondItem="JjM-rs-dKZ" secondAttribute="bottom" constant="90" id="79q-6W-DGc"/>
+                            <constraint firstAttribute="centerX" secondItem="q1l-6Y-pTl" secondAttribute="centerX" constant="-0.5" id="CBC-yM-2Mu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dRY-5w-Tmd" secondAttribute="trailing" constant="40" id="DTk-Mn-zeH"/>
                             <constraint firstItem="FE8-9d-zBf" firstAttribute="top" secondItem="dRY-5w-Tmd" secondAttribute="bottom" constant="177" id="DxE-cc-PeY"/>
                             <constraint firstItem="vrh-Yh-1Ii" firstAttribute="top" secondItem="fnL-lk-GJh" secondAttribute="bottom" constant="10" id="GEu-D1-ZTh"/>
                             <constraint firstItem="FE8-9d-zBf" firstAttribute="top" secondItem="fnL-lk-GJh" secondAttribute="bottom" constant="177" id="Inf-IZ-OvI"/>
-                            <constraint firstAttribute="centerX" secondItem="q1l-6Y-pTl" secondAttribute="centerX" constant="-0.5" id="NsF-Gl-ke8"/>
+                            <constraint firstItem="q1l-6Y-pTl" firstAttribute="top" secondItem="7Qv-Ch-RzZ" secondAttribute="bottom" constant="89" id="MUX-wi-3Uf"/>
                             <constraint firstItem="fnL-lk-GJh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="40" id="SVr-Lc-lPk"/>
-                            <constraint firstItem="q1l-6Y-pTl" firstAttribute="top" secondItem="7Qv-Ch-RzZ" secondAttribute="bottom" constant="74" id="bYc-1F-jbE"/>
+                            <constraint firstItem="q1l-6Y-pTl" firstAttribute="leading" secondItem="cAK-RQ-1FU" secondAttribute="trailing" constant="6" id="UWq-XZ-wxs"/>
                             <constraint firstAttribute="centerY" secondItem="pg3-wK-zZ5" secondAttribute="centerY" id="neo-zh-r3C"/>
                             <constraint firstAttribute="centerX" secondItem="OI8-qT-7UV" secondAttribute="centerX" constant="-0.5" id="vI0-fi-SjT"/>
                             <constraint firstAttribute="centerX" secondItem="JjM-rs-dKZ" secondAttribute="centerX" constant="-0.5" id="xwZ-F3-XkH"/>
@@ -92,6 +101,9 @@
             <point key="canvasLocation" x="272" y="293.46666666666664"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="cloudy-night" width="46" height="43"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
